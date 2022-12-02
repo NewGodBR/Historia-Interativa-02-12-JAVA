@@ -32,6 +32,10 @@ public class Main {
         
         // Acontecimentos pós Decisão e por assim vai
         
+        if (escolha.equals("Correr")){
+            // continuação
+            
+        }
         imput.close();
     }
 }
