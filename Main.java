@@ -64,6 +64,13 @@ public class Main {
                 "CONTA PAGA"
                 );
             }
+            else{
+                System.out.println(
+                "*Não importa o que você tenha falado ou feito, o policial não foi com sua cara e\n"+
+                "Pula em sua direção e te leva preso por desacato\n"+
+                "UMA NOITE NA CADEIA"
+                );
+            }
         }
 
         
