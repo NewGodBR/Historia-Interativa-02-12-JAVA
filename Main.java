@@ -56,7 +56,17 @@ public class Main {
                 "o Banco fechou e agora (sexta) o pagamento só vai constar na segunda, ATRASADA"
                 );
             }
+            else if (escolha.equals("Banco")){
+                System.out.println(
+                "--o BANCO, VAI FECHAR... \n"+
+                "*Você para um momento cumprimenta o policial e explica rapido que está indo ao banco pagar uma conta\n"+
+                "De alguma forma você consegue chegar a tempo ao banco e tem UM caixa livre que ta brilhando nos seus olhos\n"+
+                "CONTA PAGA"
+                );
+            }
         }
+
+        
         imput.close();
     }
 }
