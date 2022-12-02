@@ -72,7 +72,16 @@ public class Main {
                 );
             }
         }
-
+        else if (escolha.equals("Andando")){
+            System.out.println(
+            "~~ Vou continuar andando\n"+
+            "Você começa a cantarolar a musica BREAK MY STRIDE"+
+            "-- ..nothin' gonna break my stryde\n"+
+            "-- nobody gonna slow me down\n\n"+
+            "a moto para do seu lado, sem gritaria nem ameaças, o garupa saca uma arma e te da um tiro\n"+
+            "VOCE MORREU *e roubaram suas coisas"
+            );
+        }
         
         imput.close();
     }
