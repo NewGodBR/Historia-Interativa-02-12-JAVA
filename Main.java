@@ -75,14 +75,20 @@ public class Main {
         else if (escolha.equals("Andando")){
             System.out.println(
             "~~ Vou continuar andando\n"+
-            "Você começa a cantarolar a musica BREAK MY STRIDE"+
+            "Você começa a cantarolar a musica BREAK MY STRIDE\n"+
             "-- ..nothin' gonna break my stryde\n"+
             "-- nobody gonna slow me down\n\n"+
             "a moto para do seu lado, sem gritaria nem ameaças, o garupa saca uma arma e te da um tiro\n"+
             "VOCE MORREU *e roubaram suas coisas"
             );
         }
-        
+        else {
+            System.out.println(
+            "A moto começa a acelerar e você vai escutando o escapamento fazendo um barulho muito alto\n"+
+            "Você ter "+escolha+" não impediu os bandidos de te matarem, aparentemente foi planejado\n"+
+            "VOCE MORREU"
+            );
+        }
         imput.close();
     }
 }
