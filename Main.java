@@ -15,16 +15,17 @@ public class Main {
 
         // Apresentação da historia
 
-        System.out.println("Um maluco está correndo e gritando ");
+        System.out.println("Você se vê andando a noite na rua, deserta");
 
         // Acontecimento anterior a decisão
 
-        System.out.println("vindo em sua direção:\n"+
+        System.out.println("Escuta um som de motor distante, você olha pra trás\n"+
+        "e vê uma moto com duas pessoas se aproximando\n"+
         
         //Opções:
-        "[Correr]"+
-        "[Gritar]"+
-        "[Nada]");
+        "~ Será que que vou ser assaltado?\n"+
+        "~ E agora? será que eu [Corro] ou continuo [Andando]"
+        );
 
         // Tomada de Decisão
 
@@ -32,9 +33,29 @@ public class Main {
         
         // Acontecimentos pós Decisão e por assim vai
         
-        if (escolha.equals("Correr")){
+        if (escolha.equals("Corro")){
             // continuação
-            
+            System.out.println("~ Eu acho melhor correr to com muito dinheiro no bolso\n"+
+            "Você então começa a correr em direção a uma rua mais movimentada e escuta a moto acelerar\n"+
+            "~~~\n"+
+            "A claridade da rua começa a tomar conta da sua visão\n"+
+            "*Barulho do exaustor, e então vc olha pra trás e vê que a moto desistiu\n"+
+            "Um policial observa você se aproximando esbaforido e vai ao seu encontro\n"+
+            "== Alto lá cidadão de onde você vem? O que aconteceu?\n"+
+            "~ Conto sobre a [Moto] ou falo que só vou ao [Banco]?\n"
+            );
+            // Tomada de Decisão
+            escolha = imput.nextLine();
+            if (escolha.equals("Moto")){
+                System.out.println(
+                "--Senhor Policial *arg*, eu estava vindo de casa para o banco, e dois caras\n"+
+                "numa moto começaram a me perseguir na rua de tras * você aponta* pensei que seria um assalto\n"+
+                "*vc explica todos os detalhes que se lembra ao policial e responde à umas perguntas de rotina\n"+
+                "== Certo, daremos um alerta de aviso, mas o que vai fazer no banco à essa hora ? Já está fechado\n"+
+                "Você então pega o seu celular e vê que ao desviar o caminho fugindo da moto que já é tarde\n"+
+                "o Banco fechou e agora (sexta) o pagamento só vai constar na segunda, ATRASADA"
+                );
+            }
         }
         imput.close();
     }
